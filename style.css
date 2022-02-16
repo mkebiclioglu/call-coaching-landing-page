@@ -157,4 +157,25 @@ a {
     text-transform: lowercase;
 }
 
+/* TESTIMONIALS */
+.testimonials {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1vh;
+    padding: 15vw;
+    background-color: #e5e7eb;
+}
+
+.testimonials_text {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.testimonials_who {
+    opacity: 0.5;
+    align-self: flex-end;
+}
+
 
