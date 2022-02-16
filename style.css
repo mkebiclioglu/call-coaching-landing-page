@@ -162,7 +162,7 @@ a {
     display: flex;
     flex-flow: column nowrap;
     gap: 1vh;
-    padding: 15vw;
+    padding: 15vh 300px 10vh 300px;
     background-color: #e5e7eb;
 }
 
@@ -177,5 +177,46 @@ a {
     opacity: 0.5;
     align-self: flex-end;
 }
+
+/* CALL TO ACTION */
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15vh 10vw;
+}
+
+.cta__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10vw;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.cta__detail {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.cta__heading,
+.cta__text {
+    color: white;
+}
+
+
+.cta__button {
+    border: #e5e7eb solid 2px;
+    padding: 5px 25px;
+    border-radius: 10px;
+    color: white;
+    flex-shrink: 0;
+}
+
+/* FOOTER */
+
 
 
